@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "demo-eslint-plugin-todo-with-label",
+  "description": "",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "test": "eslint src/**"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-plugin-todo-with-label": "file:../eslint-plugin-todo-with-label"
+  }
+}
